@@ -1,0 +1,92 @@
+# Node.js dependencies
+/node_modules
+/npm-debug.log*
+/yarn-debug.log*
+/yarn-error.log*
+/pnpm-debug.log*
+/package-lock.json
+/yarn.lock
+/pnpm-lock.yaml
+
+# Build output
+/build
+/dist
+/out
+/.cache
+/.next
+
+# Logs
+/logs
+*.log
+*.log.*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# TypeScript
+/*.tsbuildinfo
+
+# IDEs and editors
+/.idea
+/.vscode
+*.sublime-workspace
+*.iml
+
+# macOS files
+.DS_Store
+
+# Linux files
+*.swp
+*.swo
+
+# AWS-specific files
+.aws-sam
+/.serverless
+.cloudformation
+*.pem
+
+# GitHub Actions
+!.github/workflows
+.github/actions/secrets
+
+# Temporary files
+/tmp
+*.tmp
+*.temp
+*.bak
+
+# Coverage directory used by testing tools
+/coverage
+
+# CI/CD build artifacts
+/.terraform
+/.cache
+/.nyc_output
+/.pytest_cache
+/test-results.xml
+
+# Optional npm cache directory
+.npm
+
+# Ignore bundling tools
+/.parcel-cache
+/.webpack
+/webpack.config.js
+/rollup.config.js
+
+# Ignore Python venv (if using AWS SAM or Lambda)
+.venv
+__pycache__
+
+# Specific to AWS CDK (if applicable)
+cdk.out
+cdk.context.json
+
+# Prevent ignoring TypeScript definitions or GitHub Actions YAML
+!*.d.ts
+!*.yml
+!*.yaml
