@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "compile": "tsc --watch",
+    "build": "tsc",
     "start": "nodemon --enable-source-maps dist/index.js"
   },
   "devDependencies": {
