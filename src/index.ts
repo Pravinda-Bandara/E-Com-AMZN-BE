@@ -32,7 +32,10 @@ mongoose
 app.use(
   cors({
     credentials: true,
-    origin: ["http://localhost:5173"],
+    origin: [
+      "http://localhost:5173", // Allow localhost for development
+      "http://ec2-13-60-47-208.eu-north-1.compute.amazonaws.com" // Allow EC2 instance in production
+    ]
   })
 );
 app.use(express.json());
