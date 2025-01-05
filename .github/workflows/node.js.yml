@@ -43,4 +43,4 @@ jobs:
 
     - name: Restart PM2 Process
       run: |
-        pm2 restart all
+        pm2 restart E-Com-AMZN-BE
