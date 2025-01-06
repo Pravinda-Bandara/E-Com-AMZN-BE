@@ -40,6 +40,3 @@ jobs:
         echo "CLOUDINARY_CLOUD_NAME=${{ secrets.CLOUDINARY_CLOUD_NAME }}" >> .env
         echo "JWT_SECRET=${{ secrets.JWT_SECRET }}" >> .env
         echo "MONGODB_URI_ATLZ=${{ secrets.MONGODB_URI_ATLZ }}" >> .env
-    - name: Restart PM2 Process
-      run: |
-        pm2 restart E-Com-AMZN-BE
